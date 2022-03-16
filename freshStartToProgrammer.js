@@ -1,2 +1,5 @@
 console.log('best Portia!!')
 console.log('best Portia ever!!')
+console.log('算法 1刷 -> 3刷')
+console.log('小红书 -> 一周一更')
+console.log('运动 -> 一周五次')
