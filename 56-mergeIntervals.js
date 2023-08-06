@@ -11,7 +11,6 @@ var mergeIntervals = function(intervals){
   // if not, the overlapping not happening in this time and we just need to push this new element
   // but remember we need to keep track this new element for next compare.
   for(let idx = 0; idx < intervals.length; idx++){
-    console.log('pp check temp', {temp, idx})
     if(temp[1] >= intervals[idx][0]){
       temp[1] = Math.max(intervals[idx][1], temp[1])
     } else {
