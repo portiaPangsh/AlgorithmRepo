@@ -1,0 +1,5 @@
+pp check temp { temp: [ 1, 3 ], idx: 0 }
+pp check temp { temp: [ 1, 3 ], idx: 1 }
+pp check temp { temp: [ 1, 6 ], idx: 2 }
+pp check temp { temp: [ 8, 10 ], idx: 3 }
+pp check res [ [ 1, 6 ], [ 8, 10 ], [ 15, 18 ] ]
